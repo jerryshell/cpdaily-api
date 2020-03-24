@@ -1,9 +1,8 @@
-import os
-
 import requests
 from bs4 import BeautifulSoup
 
 import config
+import encoder
 
 session = requests.session()
 
@@ -73,7 +72,7 @@ print(iap)
 阶段 3：编码 iap，获取 ticket
 """
 
-ticket = os.popen('java -jar cpdaily-api-encoder.jar ' + iap).read().split('\n')[0]
+ticket = encoder.encode(iap)
 print('---ticket')
 print(ticket)
 
