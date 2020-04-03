@@ -21,7 +21,11 @@
 
 # 登录接口使用说明
 
-请打开 `config.py` 按照顺序依次操作
+首先打开 `cpdaily_info_gen.py`，按照注释的说明将你的手机的 `device_id` 填好
+
+然后单独运行 `cpdaily_info_gen.py` 文件，得到编码后的设备信息
+
+然后请打开 `config.py` 按照顺序依次操作
 
 其中学校的参数可以 [在这里](https://www.cpdaily.com/v6/config/guest/tenant/list) 获取
 
