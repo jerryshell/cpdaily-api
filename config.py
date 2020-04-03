@@ -9,7 +9,7 @@ cpdaily_info = ''
 username = ''
 # 3. 设置登录密码
 password = ''
-# 4. 设置学校 id，这部分可以参考 tenant_list.json，如：华中科技大学设置为 hust
+# 4. 设置学校 id，这部分可以参考 tenant_list.json，如：华中科技大学设置为 hust，注意：有些学校的 id 是一个 uuid，而不是学校英文名
 tenant_id = ''
 # 5. 设置学校 iap 地址，这部分可以参考 tenant_list.json，如：华中科技大学设置为 http://hust.cpdaily.com/iap
 tenant_iap_url = ''
